@@ -1,0 +1,31 @@
+{
+  "name": "mbb-community-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for the MBB commiunity server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatelogic/mbb-community-bot.git"
+  },
+  "author": "GateLogic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatelogic/mbb-community-bot/issues"
+  },
+  "homepage": "https://github.com/gatelogic/mbb-community-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord-buttons": "^4.0.0",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "discord.js-collector": "^1.8.9",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.3",
+    "statcord.js": "^3.2.1"
+  }
+}
